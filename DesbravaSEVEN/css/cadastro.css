@@ -1,0 +1,148 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.pg1{
+    height: 100vh;
+}
+.navbar{
+background-color: rgb(0, 0, 0);
+height: 11%;
+display: flex;
+justify-content: center;
+}
+.container_navbar{
+    height: 100%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divlogo {
+    height: 100%;
+    width: 11%;
+}
+.divlogo img{
+    width:100%;
+    height: 100%;
+}
+.opçoes_navbar{
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 30%;
+font-size:larger;
+font-family: sans-serif;
+}
+a{
+    color: white;
+}
+.conteudo{
+    height: 83%;
+   display: flex;
+   justify-content: center;
+    background-color: #C4C4C4;
+}
+.container_conteudo{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container_gif{
+    height: 69%;
+width: 40%;
+border: solid 1px red;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.capacete{
+    border: solid 1px red;
+    font-size: 38px;
+    font-weight: bolder;
+    
+    font-family: sans-serif;
+    color: #1F1F1F;
+}
+.gif{
+    border: solid 1px red;
+    height: 90%;
+    width: 100%;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+}
+.container_cadastro{
+height: 69%;
+width: 30%;
+background-color: #6C6C6C;
+border-radius: 15px;
+margin-right: 2%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container_formularios{
+    height: 90%;
+    width: 78%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.nome_cadastar{
+    width: 100%;
+    font-weight: bolder;
+    color: #FFB423;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 60%;
+}
+input {
+    height: 15%;
+    width: 100%;
+    border-radius: 10px;
+    border: 0px;
+}
+.botao_cadastrar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 13%;
+}
+button {
+    height: 100%;
+    width: 100%;
+    border-radius: 17px;
+    background-color:  #1F1F1F;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: sans-serif;
+    border: 0px;
+}
+.rodape{
+    height: 6%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 17px;
+    font-family: sans-serif;
+}
