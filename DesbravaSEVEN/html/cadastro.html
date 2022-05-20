@@ -7,6 +7,9 @@
     <title>DesbravaSeven || Cadastro</title>
     <link rel="stylesheet" href="../css/cadastro.css">
     <link rel="icon" href="../css/imgs/logotipo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@800&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="pg1">
@@ -22,27 +25,41 @@
             </div>
         </div>
     </div>
-    <div class="conteudo">
+    <div class="conteudo" >
       <div class="container_conteudo">
-        <div class="container_gif">
-            <div class="capacete">Vista o capacete, e LET'S GO!</div>
-            <div class="gif">
-              
-            </div>
-        </div>
-        <div class="container_cadastro" >
-            <div class="container_formularios">
-                <div class="nome_cadastar">Cadastrar</div>
-                <div class="inputs">
-                    <input type="text"; placeholder="Username">
-                    <input type="text"; placeholder="Email">
-                    <input type="text"; placeholder="Passoword">
+          <div class="container_cadastro" >
+              <div class="container_formularios">
+                  <div class="nome_cadastar">Cadastrar</div>
+                  
+                 
+                    <!-- <div class="inputs"> -->
+                        <div class="inputs_nome">
+                            <div>Nome</div>
+                            <input class="input1" type="text"; placeholder="Username">
+                        </div>
+                        <dv class="inputs_nome">
+                          <div>E-mail</div>
+                          <input class="input2" type="email"; placeholder="Email">
+                        </dv>
+                        <div class="inputs_nome">
+                          <div>Senha</div>  
+                          <input class="input3" type="password"; placeholder="Passoword">
+                        </div>
+                      <!-- </div> -->
+                
+
+                    <div class="botao_cadastrar">
+                        <button onclick="cadastrar()">Criar conta</button>
+                        <div><a href="login.html">Ja possui uma conta?</a></div>
+                    </div>
                 </div>
-                <div class="botao_cadastrar">
-                    <button onclick="cadastrar()">Cadastre-se</button>
-                </div>
             </div>
-        </div>
+            <div class="container_slogan">
+                <div class="letras_slogan">Venha</div>
+                <div class="letras_slogan">Des</div>
+                <div class="letras_slogan">bravar</div>
+                <div class="letras_slogan">o mundo!</div>
+            </div>
     </div>  
     </div>
     <div class="rodape">
