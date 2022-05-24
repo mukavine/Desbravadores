@@ -271,14 +271,14 @@ border-radius: 50px;
     font-family: sans-serif;
     font-weight: bolder;
 }
-.textos_esquerdo{
+.pg2 .textos_esquerdo{
     width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.textos_direito{
+.pg2 .textos_direito{
     width: 50%;
     height: 100%;
     display: flex;
@@ -287,29 +287,168 @@ border-radius: 50px;
     border-left: 3px solid black;
     padding-left: 3%;
 }
-.texto_cima{
+.pg2 .texto_cima{
 margin-top: 10%;
     height: 50%;
     width: 100%;
 }
-.texto_baixo{
+.pg2 .texto_baixo{
     height: 50%;
     width: 100%;
 }
 /* terceira pagina da tela index */
 
+.pg3{
+    height: 100vh;
+   
+    background-color: #C4C4C4;
+}
+.pg3 .teto{
+   
+    height: 16%;
+    background-color: #818181;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pg3 .container_teto{
+   
+    width: 85%;
+    height: 70%;
+    background-color: black;
+    border-radius: 15px;
+    color: rgb(255, 230, 0);
+    font-size: 50px;
+    font-family:Impact;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pg3 .conteudo{
+height: 78%;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+}
+.pg3 .container_conteudo{
+height: 80%;
+width: 90%;
+display: flex;
+justify-content: space-between;
 
-
-
-
-
-
-
-
-
-
-
-
+margin-top: 3%;
+}
+.pg3 .fotos_textos{
+    
+height: 100%;
+width: 69%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.pg3 .container_fotos_textos{
+    
+height: 88%;
+width: 23%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.pg3 .foto{
+    height: 61%;
+    width: 100%;
+}
+.pg3 .foto img{
+    border-radius: 15px;
+}
+.pg3 .texto{
+    height: 38%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.explicaçao_fotos{
+    font-size: 21px;
+}
+.pg3 .sobre_mim{
+    border: solid rgb(0, 0, 0) 2px;
+    height: 100%;
+width: 28%;
+border-radius: 10px;
+}
+.pg3 .texto_sobre{
+   margin-top: 2%;
+     height: 10%;
+      font-size: 40px;
+       display: flex;
+        justify-content: center;
+}
+.pg3 .foto_perfil{
+    height: 33%;
+      display: flex;
+       justify-content: center;
+        align-items: center;
+        margin-top: 3%;
+}
+.pg3 .foto_perfil img{
+    border-radius:50%;
+     height: 100%;
+      width:50;
+}
+.pg3 .container_texto{
+    
+     height: 40%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.pg3 .textos{
+    width: 90%;
+     height: 87%;
+       display: flex;
+        flex-direction: column;
+         justify-content: flex-start;
+          align-items: center;
+           font-size: 25px;
+}
+.pg3 .ultimo_texto{
+    margin-bottom: 8%;
+}
+.pg3 .redes_sociais{
+    
+     height: 11%; display:flex;
+      justify-content:space-evenly;
+       align-items: center;
+}
+.pg3 .redes_sociais img{
+    height: 100%;
+     width:100%
+}
+.pg3 .div_redes{
+    height: 93%;
+     width:15%;
+}
+.pg3 .div_insta{
+    height: 100%; width:16%;
+}
+.pg3 .div_texto{
+    height: 93%;
+     width:15%;
+}
+.pg3 .rodape{
+    height: 6%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 17px;
+    font-family: sans-serif;
+}
 
 
 
