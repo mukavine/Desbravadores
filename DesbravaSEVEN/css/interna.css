@@ -161,7 +161,6 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-<<<<<<< HEAD
 
 }
 
@@ -170,8 +169,6 @@ body {
     width: 100%;
     background-color: #0E6700;
 
-=======
->>>>>>> 374962950cec2ca1f24347344e3b57223dfe5c3c
 }
 
 .conteudo1 .enunciado {
@@ -216,14 +213,10 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
-<<<<<<< HEAD
  button:hover{
     background-color: #ff8800;
    transition:0.3s;
 }
-=======
-
->>>>>>> 374962950cec2ca1f24347344e3b57223dfe5c3c
 .opçoes select {
     width: 48%;
     height: 45%;
@@ -297,10 +290,7 @@ width: 90%;
 
 .foto_3 {
     background-color: #0E6700;
-<<<<<<< HEAD
 
-=======
->>>>>>> 374962950cec2ca1f24347344e3b57223dfe5c3c
 }
 
 .foto_4 {
@@ -391,17 +381,13 @@ width: 90%;
     margin-top: 1%;
 
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 374962950cec2ca1f24347344e3b57223dfe5c3c
 .conteudo2 .conteudo_grafico {
     height: 64%;
     width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
-<<<<<<< HEAD
     justify-content: center;
     margin-bottom: 1%;
     background-color: #e0e0e0;
@@ -411,22 +397,11 @@ width: 90%;
 
 .container_select {
 
-=======
-   justify-content: center;
-    margin-bottom: 1%;
-    background-color: #161616;
-    border-radius: 20px;
-    
-}
-.container_select{
-    
->>>>>>> 374962950cec2ca1f24347344e3b57223dfe5c3c
     height: 5%;
     width: 80%;
     font-size: 20px;
     font-family: sans-serif;
     font-weight: bold;
-<<<<<<< HEAD
     color: rgb(44, 44, 44);
 }
 
@@ -547,36 +522,3 @@ width: 90%;
     height: 60%;
     width: 95%;
 }
-=======
-    color: white;
-}
-.container_select select{
-    background-color: rgb(51, 51, 51);
-    font-size: 18px;
-    font-family: sans-serif;
-    font-weight: 400;
-    color: white;
-    outline: 0;
-    border-radius: 5px;
-    border: 0;
-    width: 15%;
-    height: 100%;
-    
-}
-.container_grafico1{
-    height: 90%;
-    width: 78%;
-    
-    
-    
-}
-.container_grafico2{
-    height: 90%;
-    width: 78%;
-    border: solid 1px rgb(25, 0, 255);
-   
-    
-}
-
-
->>>>>>> 374962950cec2ca1f24347344e3b57223dfe5c3c
