@@ -93,7 +93,9 @@ input {
     border: 0;
     padding-top: 2px;
     font-size: 15px;
-    /* outline: 0; */
+border: 1px black solid; 
+    outline: 0;
+    cursor:text;
 }
 .inputs{
     height: 45%;
@@ -139,7 +141,7 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
     height: 17%;
 }
 button {
@@ -152,6 +154,11 @@ button {
     font-size: 25px;
     font-family: sans-serif;
     border: 0px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #383838;
+   transition:0.3s;
 }
 .container_slogan{
     height: 60%;

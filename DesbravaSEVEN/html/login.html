@@ -8,6 +8,7 @@
     <title>DesbravaSeven || Login</title>
     <link rel="icon" href="../css/imgs/logotipo.png">
     <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/login.js"></script>
 </head>
 
 <body>
@@ -38,19 +39,18 @@
                         <div class="inputs">
 
                             <dv class="inputs_nome">
-                                <div>E-mail</div>
-                                <input class="input2" type="email" ; placeholder="Email">
+                                <div  style="display:flex; justify-content: space-between;">E-mail<div id="erro_email" style="color: red; font-size: 15px; font-family: monospace"></div></div>
+                                <input class="input2" type="email" ; placeholder="Email" id="input_email" onblur="validar_email()">
                             </dv>
                             <div class="inputs_nome">
-                                <div>Senha</div>
-                                <input class="input3" type="password" ; placeholder="Passoword">
+                                <div style="display:flex; justify-content: space-between;">Senha<div id="erro_senha" style="color: red; font-size: 15px; font-family: monospace"></div></div>
+                                <input class="input3" type="password" ; placeholder="Passoword" id="input_senha" onblur="validar_senha()">
                             </div>
                         </div>
 
 
                         <div class="botao_cadastrar">
-                            <a href="../html/interna.html"><button onclick="cadastrar()"><a
-                                        href="../html/interna.html">Entrar</a></button>
+                            <button onclick="logar()">Entrar</button>
                                 <div><a href="cadastro.html">Não possui conta?</a></div>
                         </div>
                     </div>

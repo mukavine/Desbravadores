@@ -9,7 +9,13 @@
     <link rel="stylesheet" href="../css/interna.css">
     <link rel="icon" href="../css/imgs/logotipo.png">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<<<<<<< HEAD
+    <script src="../js/interna.js"></script>
+    <!-- <script  src="https://www.gstatic.com/charts/loader.js"></script> -->
+    <!-- <script src="https://www.gstatic.com/charts/loader.js"></script> -->
+=======
     <!-- <script src="../js/interna.js"></script> -->
+>>>>>>> 374962950cec2ca1f24347344e3b57223dfe5c3c
 
 </head>
 
@@ -35,7 +41,11 @@
                     <div class="opçao2">Grafico de especialidades</div>
                 </div>
                 <div class="opçoes3" onclick="mestrado()">
+<<<<<<< HEAD
+                    <div class="topico3">•</div>
+=======
                     <div class="topico3" >•</div>
+>>>>>>> 374962950cec2ca1f24347344e3b57223dfe5c3c
                     <div class="opçao3">Mestrados</div>
                 </div>
             </div>
@@ -45,7 +55,11 @@
 
         </div>
         <div class="conteudo">
+<<<<<<< HEAD
+            <div class="container_conteudo conteudo1" id="seleçao_trilha">
+=======
             <div class="container_conteudo conteudo1"  id="seleçao_trilha">
+>>>>>>> 374962950cec2ca1f24347344e3b57223dfe5c3c
                 <div class="enunciado">
                     <div class="texto_enunciado">
                         <div style="margin-left: 5%;">Cadastre a especialidade concluida e </div>
@@ -54,7 +68,11 @@
                     <div class="opçoes">
                         <select>
                             <option value="1">Escolha</option>
+<<<<<<< HEAD
+                            <option value="2">Fogueiras</option>
+=======
                             <option value="2" >Fogueiras</option>
+>>>>>>> 374962950cec2ca1f24347344e3b57223dfe5c3c
                             <option value="3">Pioneiria</option>
                             <option value="4">Computaçao</option>
                             <option value="5">Ordem unida</option>
@@ -90,7 +108,11 @@
                 <div class="classes_baixo">
                     <div class="container_classes">
                         <div class=" teste foto_4">
+<<<<<<< HEAD
+                            <div class="porcentagem">0%</div>
+=======
                             <div  class="porcentagem">0%</div>
+>>>>>>> 374962950cec2ca1f24347344e3b57223dfe5c3c
                         </div>
                         <div class="texto">Pioneiro</div>
                     </div>
@@ -108,7 +130,11 @@
                     </div>
                 </div>
             </div>
+<<<<<<< HEAD
+
+=======
             
+>>>>>>> 374962950cec2ca1f24347344e3b57223dfe5c3c
             <div class="container_conteudo conteudo2" id="seleçao_grafico" style="display:none;">
                 <div class="enunciado">Compare as classes, e mensure sua dificuldade.</div>
                 <div class="analitics">
@@ -120,12 +146,20 @@
                         <div>13 a 22</div>
                         <div class="nivel">Médio</div>
                     </div>
+<<<<<<< HEAD
+                    <div class="metrica dificil" onclick="drawChart()">
+=======
                     <div class="metrica dificil">
+>>>>>>> 374962950cec2ca1f24347344e3b57223dfe5c3c
                         <div>23</div>
                         <div class="nivel">Difícil</div>
                     </div>
                 </div>
+<<<<<<< HEAD
+                <div class="conteudo_grafico">
+=======
                 <div class="conteudo_grafico" >
+>>>>>>> 374962950cec2ca1f24347344e3b57223dfe5c3c
                     <div class="container_select">Tipo de grafico:
                         <select id="select_grafico">
                             <option value="barra">Quantitativo</option>
@@ -134,16 +168,47 @@
                     </div>
                     <div class="container_grafico1" id="seleçao_barra">
                         <canvas id="myChart1" class="canvas1"></canvas>
+<<<<<<< HEAD
+
+                    </div>
+                    <div class="container_grafico2" id="seleçao_porcentagem">
+                        <div id='piechart' style="height:  auto; width: auto;  "></div>
+=======
                     </div>
                     <div class="container_grafico2" id="seleçao_porcentagem">
                            
                         <canvas id="myChart2" class="canvas2"></canvas>
+>>>>>>> 374962950cec2ca1f24347344e3b57223dfe5c3c
                     </div>
                 </div>
 
 
             </div>
+<<<<<<< HEAD
+            <div class="container_conteudo conteudo3" id="seleçao_mestrados" style="display:none;">
+              <div class="enunciado">Descubra o tempo de conquista dos mestrados</div>
+              <div class="interaçao">
+                  <div class="container_interaçao">
+                      <div class="inputs">
+                          <div class="conteudo_inputs">
+                              Qtd. de Mestrados:
+                               <br>
+                              <input id="input_mestrado">
+                          </div>
+                          <div class="conteudo_inputs">
+                            Especialidades p/ mês:
+                            <br>
+                           <input id="input_especialidades_por_mes">
+                          </div>
+                      </div>
+                      <button onclick="calcular_tempo()">Calcular tempo</button>
+                  </div>
+              </div>
+              <div class="conteudo_for" id="div_for"></div>
+            </div>
+=======
             <div class="container_conteudo" id="seleçao_mestrados" style="display:none;"></div>
+>>>>>>> 374962950cec2ca1f24347344e3b57223dfe5c3c
         </div>
     </div>
 
@@ -154,6 +219,107 @@
 
 <script>
     const labels1 = [
+<<<<<<< HEAD
+        'Amigo',
+        'Companheiro',
+        'Pesquisador',
+        'Pioneiro',
+        'Excurcionista',
+        'Guia',
+    ];
+
+
+    const data1 = {
+        labels: labels1,
+        datasets: [
+            {
+                label: '',
+                backgroundColor: 'gray',
+                borderColor: 'black',
+                data: ['27', '13', '23', '14', '17', '21'],
+            },]
+
+    };
+
+    const config1 = {
+        type: 'bar',
+        data: data1,
+        options: {},
+    };
+
+
+    const myChart1 = new Chart(
+        document.getElementById('myChart1'),
+        config1
+    );
+
+    function trilha() {
+        seleçao_trilha.style.display = ""
+        seleçao_grafico.style.display = "none"
+        seleçao_mestrados.style.display = "none"
+
+
+    }
+    function grafico() {
+
+        seleçao_trilha.style.display = "none"
+        seleçao_grafico.style.display = ""
+        seleçao_mestrados.style.display = "none"
+
+        var select = select_grafico.value;
+
+        if (select == 'barra') {
+            seleçao_barra.style.display = "";
+            seleçao_porcentagem.style.display = "none";
+        } else {
+            seleçao_barra.style.display = "none"
+            seleçao_porcentagem.style.display = ""
+        }
+
+    }
+    function mestrado() {
+        seleçao_trilha.style.display = "none"
+        seleçao_grafico.style.display = "none"
+        seleçao_mestrados.style.display = ""
+
+    }
+</script>
+
+<script>
+    
+    google.charts.load('current', { 'packages': ['corechart'] });
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+            ['Task', 'Hours per Day'],
+            ['Amigo', 27],
+            ['Companheiro', 13],
+            ['Pesquisador', 23],
+            ['Pioneiro', 14],
+            ['Excursionista', 17],
+            ['guia', 21]
+        ]);
+
+        var options = {
+
+            is3D: true,
+            backgroundColor: '',
+            colors: ['#004BA4', '#A10000', '#0E6700', '#6A6A6A', '#700097', '#EAB600'],
+            fontSize: 15,
+            height: 370,
+            width: 800,
+
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+    }
+
+</script>
+=======
       'Amigo',
       'Companheiro',
       'Pesquisador',
@@ -219,3 +385,4 @@ function mestrado(){
 }
     
 </script>
+>>>>>>> 374962950cec2ca1f24347344e3b57223dfe5c3c

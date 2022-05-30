@@ -147,6 +147,10 @@ button {
     border: 0px;
     cursor: pointer;
 }
+button:hover{
+    background-color: #383838;
+   transition:0.3s;
+}
 .container_slogan{
     height: 60%;
     width: 40%;

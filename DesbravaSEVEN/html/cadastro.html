@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/cadastro.css">
     <link rel="icon" href="../css/imgs/logotipo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="../js/cadastro.js"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@800&display=swap" rel="stylesheet">
 </head>
@@ -33,18 +34,22 @@
                   
                  
                     <!-- <div class="inputs"> -->
-                        <div class="inputs_nome">
-                            <div>Nome</div>
-                            <input class="input1" type="text"; placeholder="Username">
+                        <div class="inputs_nome" id="div1">
+                            <div style="display:flex; justify-content: space-between;">Nome<div id="erro_nome" style="color: red; font-size: 15px; font-family: monospace"></div></div>
+                            <input class="input1" type="text"; placeholder="Username" id="input_username" onblur="validar_nome()">
                         </div>
                         <dv class="inputs_nome">
-                          <div>E-mail</div>
-                          <input class="input2" type="email"; placeholder="Email">
+                          <div style="display:flex; justify-content: space-between;">E-mail<div id="erro_email" style="color: red; font-size: 15px; font-family: monospace"></div></div>
+                          <input class="input2" type="email"; placeholder="Email" id="input_email" onblur="validar_email()">
                         </dv>
                         <div class="inputs_nome">
-                          <div>Senha</div>  
-                          <input class="input3" type="password"; placeholder="Passoword">
+                          <div  style="display:flex; justify-content: space-between;">Senha<div id="erro_senha" style="color: red; font-size: 15px; font-family: monospace"></div></div>  
+                          <input class="input3" type="password"; placeholder="Passoword" id="input_senha" onblur="validar_senha()">
                         </div>
+                        <div class="inputs_nome">
+                            <div  style="display:flex; justify-content: space-between;">Confirmar senha<div id="erro_confirmar_senha" style="color: red; font-size: 15px; font-family: monospace"></div></div>  
+                            <input class="input3" type="password"; placeholder="Passoword" id="input_confirmar_senha" onblur="validar_confirmar_senha()">
+                          </div>
                       <!-- </div> -->
                 
 
